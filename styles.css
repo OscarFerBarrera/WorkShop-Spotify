@@ -1,0 +1,123 @@
+.card {
+  width: 85%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 0;
+}
+.card__cover {
+  width: 100%;
+  height: 50%;
+  margin: 0;
+  padding: 0;
+}
+.card__imgCover {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  gap: 0;
+}
+.card__player {
+  height: 90%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 0;
+}
+.card__song {
+  height: 10%;
+  margin: 0;
+  margin-top: 20px;
+}
+.card__artista {
+  height: 10%;
+  margin: 0;
+  margin-top: 10px;
+}
+.card__contadores {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.card__bar-progress {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card__bar {
+  width: 80%;
+  height: 10px;
+  margin: 0 auto;
+  background-color: lightgray;
+}
+.card__progress {
+  width: 50%;
+  height: 100%;
+  background-color: black;
+}
+.card__opt-controls {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.card__random {
+  margin: 0px;
+  width: 15px;
+  height: 15px;
+}
+.card__shuffle {
+  margin: 0px;
+  width: 15px;
+  height: 15px;
+}
+.card__controls {
+  height: 60px;
+  margin: 20px;
+}
+.card__back {
+  margin: 15px;
+  width: 30px;
+  height: 30px;
+}
+.card__play {
+  margin: 15px;
+  width: 30px;
+  height: 30px;
+}
+.card__forward {
+  margin: 15px;
+  width: 30px;
+  height: 30px;
+}
+
+.header {
+  height: 20vh;
+  width: 100%;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__imagen {
+  height: 50%;
+  width: 70%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  align-items: center;
+  background-color: greenyellow;
+}/*# sourceMappingURL=styles.css.map */

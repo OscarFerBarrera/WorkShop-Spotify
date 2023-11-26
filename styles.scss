@@ -1,0 +1,26 @@
+@import 'card';
+
+.header{
+    height: 20vh;
+    width: 100%;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__imagen{
+        height: 50%;
+        width: 70%;
+    }
+}
+
+body{
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+    align-items: center;
+    background-color: greenyellow;
+    // margin: 0;
+}
